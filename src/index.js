@@ -1,0 +1,28 @@
+function iniciar(){
+    var numero = parseInt(prompt("Digite o número para fazer o calculo:"))
+    confirm(numero + " x 1 = " + numero*1)
+    confirm(numero + " x 2 = " + numero*2)
+    confirm(numero + " x 3 = " + numero*3)
+    confirm(numero + " x 4 = " + numero*4)
+    confirm(numero + " x 5 = " + numero*5)
+    confirm(numero + " x 6 = " + numero*6)
+    confirm(numero + " x 7 = " + numero*7)
+    confirm(numero + " x 8 = " + numero*8)
+    confirm(numero + " x 9 = " + numero*9)
+    confirm(numero + " x 10 = " + numero*10)
+    var resp = prompt("Você deseja realizar outra operação? [S/N]")
+    while (resp == "s"){
+        var numero = parseInt(prompt("Digite o número para fazer o calculo:"))
+        confirm(numero + " x 1 = " + numero*1)
+        confirm(numero + " x 2 = " + numero*2)
+        confirm(numero + " x 3 = " + numero*3)
+        confirm(numero + " x 4 = " + numero*4)
+        confirm(numero + " x 5 = " + numero*5)
+        confirm(numero + " x 6 = " + numero*6)
+        confirm(numero + " x 7 = " + numero*7)
+        confirm(numero + " x 8 = " + numero*8)
+        confirm(numero + " x 9 = " + numero*9)
+        confirm(numero + " x 10 = " + numero*10)
+        var resp = prompt("Você deseja realizar outra operação? [S/N]")
+    }
+}
